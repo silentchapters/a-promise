@@ -79,12 +79,18 @@
 }
 
 .jhumka-bell {
-  width: 25px;
-  height: 25px;
-  background: linear-gradient(135deg, #f5d98b, #b88635, #e8c36b);
+  width: 34px;
+  height: 27px;
+  background: linear-gradient(
+    135deg,
+    #f8df9c,
+    #bd8735,
+    #f2d17c
+  );
   border: 1px solid #8b6429;
-  border-radius: 50% 50% 45% 45%;
+  border-radius: 50% 50% 40% 40%;
   position: relative;
+  clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
 }
     .jhumka-bell::after {
   content: "•••";
